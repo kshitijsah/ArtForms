@@ -1,0 +1,29 @@
+
+section.gov_projects{
+    
+    /* [1] The container */
+    .img-hover-zoom {
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+    }
+    
+    /* [2] Transition property for smooth transformation of images */
+    .img-hover-zoom img {
+    transition: transform 1.15s ease;
+    }
+    
+    /* [3] Finally, transforming the image when container gets hovered */
+    .img-hover-zoom:hover img {
+    transform: scale(1.1);
+    }
+    
+    
+    .col-4, .col-6, .col-12{
+        padding: 5px !important;
+    }
+
+    
+}
+
+section {
+    padding: 0px 0;
+}
