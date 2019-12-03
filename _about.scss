@@ -1,0 +1,49 @@
+section.about {
+    .responsive-map{
+        overflow:hidden;
+        height: 90vh;
+    }
+    .responsive-map iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+
+      .social-icon-wrapper>a{
+        font-size: 4rem;
+    }
+    .social-twitter {
+        a {
+            color: $brand-twitter;
+                &:hover {
+                    color: darken($brand-twitter, 5%);
+                }
+            }
+        }
+    .social-instagram {
+        a {
+            color: $brand-instagram;
+                &:hover {
+                color: darken($brand-instagram, 5%);
+                }
+            }
+        }
+    .social-youtube {
+        a {
+            color: $brand-youtube;
+                &:hover {
+                color: darken($brand-youtube, 5%);
+                }
+            }
+        }
+    .social-facebook {
+        a {
+            color: $brand-facebook;
+                &:hover {
+                color: darken($brand-facebook, 5%);
+                }
+            }
+        }
+}
