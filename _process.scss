@@ -1,8 +1,23 @@
 section.process{
-    .img-hover-zoom{
-        padding-top: 10px;
-    }
+    
     .container {
         max-width: 1550px;
+    }
+    .col-4, .col-6, .col-12, .col-3{
+        padding: 5px !important;
+    }
+
+    .col-sm-4, .col-sm-6, .col-sm-12, .col-sm-3{
+        padding: 2px !important;
+    }
+}
+
+section.head_process{
+    padding-top: 30px;
+    padding-bottom: 15px;
+
+    .btn {
+        border-radius: 0px;
+        @include alt-font;
     }
 }
