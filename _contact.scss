@@ -1,49 +1,69 @@
 // Styling for the download section
 section.contact {
     text-align: center;
+
+    
+    .responsive-map{
+        overflow:hidden;
+        height: 90vh;
+    }
+    .responsive-map iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+    .card{
+        border: none;
+        border-radius: 0px;
+        border-bottom: 5px solid black;
+    }
+
+    .card-body>p{
+        font-size: 1.5rem;
+    }
+
     h2 {
         margin-top: 0;
         margin-bottom: 25px;
         i {
-            color: $brand-google-plus;
+            color: red;
         }
     }
-    ul.list-social {
-        margin-bottom: 0;
-        li {
-            a {
-                font-size: 40px;
-                line-height: 80px;
-                display: block;
-                width: 80px;
-                height: 80px;
-                color: white;
-                border-radius: 100%;
-            }
-            &.social-twitter {
-                a {
-                    background-color: $brand-twitter;
-                    &:hover {
-                        background-color: darken($brand-twitter, 5%);
-                    }
-                }
-            }
-            &.social-facebook {
-                a {
-                    background-color: $brand-facebook;
-                    &:hover {
-                        background-color: darken($brand-facebook, 5%);
-                    }
-                }
-            }
-            &.social-google-plus {
-                a {
-                    background-color: $brand-google-plus;
-                    &:hover {
-                        background-color: darken($brand-google-plus, 5%);
-                    }
+    .social-icon-wrapper>a{
+        font-size: 4rem;
+    }
+    .social-twitter {
+        a {
+            color: $brand-twitter;
+                &:hover {
+                    color: darken($brand-twitter, 5%);
                 }
             }
         }
-    }
+    .social-instagram {
+        a {
+            color: $brand-instagram;
+                &:hover {
+                color: darken($brand-instagram, 5%);
+                }
+            }
+        }
+    .social-youtube {
+        a {
+            color: $brand-youtube;
+                &:hover {
+                color: darken($brand-youtube, 5%);
+                }
+            }
+        }
+    .social-facebook {
+        a {
+            color: $brand-facebook;
+                &:hover {
+                color: darken($brand-facebook, 5%);
+                }
+            }
+        }
 }

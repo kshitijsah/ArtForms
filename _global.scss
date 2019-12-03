@@ -10,11 +10,12 @@ body {
 }
 
 a {
-    color: $theme-primary;
+    color: $theme-secondary;
     @include transition-all;
     &:hover,
     &:focus {
-        color: darken($theme-primary, 10%);
+        text-decoration: none;
+        color: darken($theme-secondary, 10%);
     }
 }
 

@@ -1,7 +1,6 @@
 section.head_projects{
     
-    padding-top: 30px;
-    padding-bottom: 15px;
+    padding: 20px;
 
     .btn {
         border-radius: 0px;
@@ -28,15 +27,5 @@ section.head_projects{
         padding: 5px !important;
     }
 
-    .col-sm-4, .col-sm-6, .col-sm-12, .col-sm-3{
-        padding: 2px !important;
-    }
-
     
-}
-
-section.story{
-    .p-5 {
-        padding: 1rem !important;
-    }
 }
